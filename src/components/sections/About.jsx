@@ -6,7 +6,7 @@ export const About = () => {
   return (
     <Section color="bg-slate-300">
       <div id="about" className="max-w-[1080px] mx-auto px-4">
-        <Titles className="">Sobre Mim</Titles>
+        <Titles>Sobre Mim</Titles>
         <p className={estilosLinks}>
           Olá, sou Abdon Carvalho, um programador frontend em início de
           carreira, apaixonado por desenvolver soluções web modernas e
