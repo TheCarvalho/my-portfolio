@@ -1,18 +1,18 @@
-import { About } from "./components/About";
-import { Home } from "./components/Home";
+import { Home } from "./components/sections/Home";
+import { About } from "./components/sections/About";
+import { Contact } from "./components/sections/Contact";
+
 import { Navbar } from "./components/Navbar";
 import { Section } from "./components/Section";
-import { Contact } from "./components/Contact";
 
 export const App = () => {
   return (
-    <Section>
+    <Section >
       <Navbar />
       <Home />
       <About/>
       <Contact/>
     </Section>
-    
   );
 };
 

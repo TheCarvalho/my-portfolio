@@ -2,7 +2,7 @@ import Photo from "/images/photo.png";
 
 export const Home = () => {
   return (
-    <div className="h-[calc(100vh-4rem+8px)] w-screen flex justify-center flex-col items-center">
+    <div className="h-screen w-screen flex justify-center flex-col items-center">
       <img
         src={Photo}
         alt="Foto de Abdon Carvalho"
