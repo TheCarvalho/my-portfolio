@@ -24,7 +24,7 @@ export const Projects = () => {
 
           {/* To Do List */}
           <a
-            href="#"
+            href="https://github.com/TheCarvalho/todo-list/"
             target="_blank"
             rel="noopener noreferrer"
             className="block p-6 bg-slate-700 rounded-lg shadow-md hover:bg-slate-800 transition-all"
