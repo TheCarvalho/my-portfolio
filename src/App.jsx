@@ -7,12 +7,11 @@ import { Section } from "./components/Section";
 
 export const App = () => {
   return (
-    <Section >
+    <Section>
       <Navbar />
       <Home />
-      <About/>
-      <Contact/>
+      <About />
+      <Contact />
     </Section>
   );
 };
-
