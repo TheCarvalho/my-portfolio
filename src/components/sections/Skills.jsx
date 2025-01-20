@@ -1,6 +1,6 @@
 import { Section } from "../Section";
-import { Tile } from "../Tile";
 import { Titles } from "../Titles";
+import { Tile } from "../Tile";
 
 export const Skills = () => {
   const estilo = "w-16 h-16 object-contain";
@@ -11,41 +11,37 @@ export const Skills = () => {
 
         <div className="grid grid-cols-4 gap-6 mt-6 justify-center">
           <Tile>
-            <img
-              src={`${import.meta.env.BASE_URL}icons/css.svg`}
-              alt="Ícone CSS"
-              className={estilo}
-            />
+            <img src="/my-portfolio/icons/css.svg" alt="Ícone CSS" className={estilo} />
           </Tile>
           <Tile>
-            <img src="/icons/html.svg" alt="Ícone HTML" className={estilo} />
+            <img src="/my-portfolio/icons/html.svg" alt="Ícone HTML" className={estilo} />
           </Tile>
           <Tile>
             <img
-              src="/icons/javascript.svg"
+              src="/my-portfolio/icons/javascript.svg"
               alt="Ícone JavaScript"
               className={estilo}
             />
           </Tile>
           <Tile>
             <img
-              src="/icons/typescript.svg"
+              src="/my-portfolio/icons/typescript.svg"
               alt="Ícone TypeScript"
               className={estilo}
             />
           </Tile>
           <Tile>
-            <img src="/icons/react.svg" alt="Ícone React" className={estilo} />
+            <img src="/my-portfolio/icons/react.svg" alt="Ícone React" className={estilo} />
           </Tile>
           <Tile>
-            <img src="/icons/next.svg" alt="Ícone Next.js" className={estilo} />
+            <img src="/my-portfolio/icons/next.svg" alt="Ícone Next.js" className={estilo} />
           </Tile>
           <Tile>
-            <img src="/icons/sass.svg" alt="Ícone Sass" className={estilo} />
+            <img src="/my-portfolio/icons/sass.svg" alt="Ícone Sass" className={estilo} />
           </Tile>
           <Tile>
             <img
-              src="/icons/tailwindcss.svg"
+              src="/my-portfolio/icons/tailwindcss.svg"
               alt="Ícone Tailwind CSS"
               className={estilo}
             />
